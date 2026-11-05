@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>local.debugger.mcp</id>
+    <name>Java Debugger MCP</name>
+    <vendor>Local Development</vendor>
+    <description>MCP tools for Java debugging and reading application output from IDE Run/Debug consoles.</description>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+    <depends>com.intellij.mcpServer</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <mcpServer.mcpToolset implementation="local.debugger.mcp.DebuggerTools"/>
+    </extensions>
+</idea-plugin>

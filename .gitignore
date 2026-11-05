@@ -1,0 +1,10 @@
+.gradle/
+.intellijPlatform/
+build/
+.idea/
+*.iml
+.reference/
+.kotlin/
+.qwen/
+*.zip
+out/

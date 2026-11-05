@@ -1,0 +1,12 @@
+# MCP для IDEA 2025.3 на Windows. Замените пути, если IDEA установлена в другой каталог.
+# Перед подключением включите Settings → Tools → MCP Server в IDEA.
+[mcp_servers.intellij]
+command = 'C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\jbr\bin\java.exe'
+args = [
+    '-classpath',
+    'C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.kotlinx.io.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.ktor.utils.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.kotlinx.serialization.json.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.ktor.client.cio.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.ktor.client.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.ktor.io.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\module-intellij.libraries.ktor.network.tls.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\lib\util-8.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3\plugins\mcpserver\lib\mcpserver-frontend.jar',
+    'com.intellij.mcpserver.stdio.McpStdioRunnerKt',
+]
+
+[mcp_servers.intellij.env]
+IJ_MCP_SERVER_PORT = '64342'
